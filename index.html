@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo"><span> Anshul Sharma</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://github.com/anshullsharma" target="_blank">
+            <button class="visit-btn">Visit Github</button>
+        </a>
+        
+
+    </header>
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="image.jpg" alt="">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Anshul Sharma</h1>
+                    <span>About Me</span>
+                    <p class="bio-text">
+                        I am a final-year Computer Science and Engineering student, passionate about leveraging technology to solve real-world problems. My academic journey has equipped me with a strong foundation in programming, software development, and systems design. I have hands-on experience with a range of technologies, including Python, HTML, CSS, JavaScript, and additional tools with frameworks like Django, MySQL, and MongoDB.
+                    </p>
+                    
+                </div>
+
+                <div class="btn-group">
+                    <a href="https://drive.google.com/uc?export=download&id=1tMoBPhHiKpD8-JimR6fBhPGH-Lxe9IQm" class="btn" download>Download CV</a>
+                    <a href="mailto:anshul.15.vish@gmail.com" class="btn">Contact</a>
+                </div>
+                
+                <div class="socials">
+                    <a href="https://github.com/anshullsharma" target="_blank">
+                        <i class="fa-brands fa-github" style="font-size: 25px;"></i>
+                    </a>
+
+                    <a href="https://linkedin.com/in/anshul-sharma-792504225" target="_blank">
+                    <i class="fa-brands fa-linkedin" style="font-size: 25px;"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+
+       <div class="projects-grid">
+
+        <div class="project-card">
+            <img src="project-1.jpg" alt="">
+            <h3>Password Generator</h3>
+            <P>Creating a randomized password based on user parameters ensuring strong to enhance data protection. </P>
+            <div class="btn-group">
+            
+                <a href="https://github.com/anshullsharma/Password-generator" class="btn" target="_blank">Github Repo</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="project-2.png" alt="">
+            <h3>Bank Management System</h3>
+            <P>User can perform banking transactions such as creating and managing accounts, depositing and 
+                withdraw funds, checking balance and view history. 
+                                          </P>
+            <div class="btn-group">
+        
+                <a href="https://github.com/anshullsharma/Bank-Management-System" class="btn" target="_blank">Github Repo</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="project-3.png" alt="">
+            <h3>Fast Food Restaurants</h3>
+            <P> Developed a web application for managing orders, customers, and menu items for a fast-food restaurant.
+                it allows the users to browse menu, place orders, and track order.                                   
+                </P>
+            <div class="btn-group">
+              
+                <a href="https://github.com/anshullsharma/fast-food-restaurants" class="btn" target="_blank">Github Repo</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="project-4.png" alt="">
+            <h3>Attendance System Using Face Recognition</h3>
+            <P>Developed face recognition attendance system to streamline tracking and enhance efficiency in 
+                monitoring student attendance with precision and reliability. 
+                </P>
+            <div class="btn-group">
+       
+                <div class="btn">Github Repo</div>
+            </div>
+        </div>
+
+       </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="input">
+                <input type="text" id="messageInput" placeholder="Enter your messege" style="background-color: transparent;">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+           <a id="submitBtn" href="#" class="btn" onclick="sendMail()">Submit</a>
+        </div>
+
+    </section>
+    
+    
+    
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+        <p class="copyright">© All Rights Reserved  | Anshul Sharma</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
